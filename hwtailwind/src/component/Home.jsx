@@ -130,26 +130,26 @@ function Home() {
                                 text="Aliquet ut vel faucibus gravida tellus non ipsum ullamcorper adipiscing felis."
                                 img="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-best-restaurant-6.jpg" />
                         </div>
-                  
-                    <div className="card card-side bg-white mx-10 max-sm:mx-0 border-8 border-[#e0e0e0] rounded-none mt-24 max-sm:flex-col max-sm:mt-16">
-                        <figure className="transform -translate-y-10 translate-x-9 max-sm:translate-x-4 max-sm:w-[92%] max-sm:-translate-y-7 max-sm:h-auto">
-                            <img
-                                src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-subscribe-cta-img.jpg"
-                                alt="form"
-                                className="w-full"
-                            />
-                        </figure>
-                        <div className="card-body mt-14 ml-10 gap-9 max-sm:gap-4 max-sm:m-0 max-sm:p-0 max-sm:ml-5 max-sm:mt-8">
-                            <h2 className="card-title text-6xl font-fraunces text-[#131516] max-sm:text-3xl">Join Mailing List</h2>
-                            <p className='text-[#707c84] font-montserrat text-xl max-sm:text-sm'>Sign up and get all the latest, ad-free reviews, recipes and <br /> news sent to your inbox.</p>
-                            <div className='mb-3 max-sm:mt-10'>
-                                <input type="email" placeholder="Email address" className="input py-3 pb-5 pr-32 max-sm:w-[93%] mr-2 focus:border-none focus:outline-dotted focus:outline-black input-bordered rounded-none bg-[#fafafa] placeholder-[#828382] placeholder:text-lg max-sm:placeholder:text-sm " />
-                                <button className='max-sm:mt-4  font-montserrat max-sm:font-bold max-sm:w-[95%] py-2 px-10 border-[#c19787] border text-[#c19787] hover:bg-[#c19787] hover:text-white'>
-                                    SUBSCRIBE
-                                </button>
+
+                        <div className="card card-side bg-white mx-10 max-sm:mx-0 border-8 border-[#e0e0e0] rounded-none mt-24 max-sm:flex-col max-sm:mt-16">
+                            <figure className="transform -translate-y-10 translate-x-9 max-sm:translate-x-4 max-sm:w-[92%] max-sm:-translate-y-7 max-sm:h-auto">
+                                <img
+                                    src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-subscribe-cta-img.jpg"
+                                    alt="form"
+                                    className="w-full"
+                                />
+                            </figure>
+                            <div className="card-body mt-14 ml-10 gap-9 max-sm:gap-4 max-sm:m-0 max-sm:p-0 max-sm:ml-5 max-sm:mt-8">
+                                <h2 className="card-title text-6xl font-fraunces text-[#131516] max-sm:text-3xl">Join Mailing List</h2>
+                                <p className='text-[#707c84] font-montserrat text-xl max-sm:text-sm'>Sign up and get all the latest, ad-free reviews, recipes and <br /> news sent to your inbox.</p>
+                                <div className='mb-3 max-sm:mt-10'>
+                                    <input type="email" placeholder="Email address" className="input py-3 pb-5 pr-32 max-sm:w-[93%] mr-2 focus:border-none focus:outline-dotted focus:outline-black input-bordered rounded-none bg-[#fafafa] placeholder-[#828382] placeholder:text-lg max-sm:placeholder:text-sm " />
+                                    <button className='max-sm:mt-4  font-montserrat max-sm:font-bold max-sm:w-[95%] py-2 px-10 border-[#c19787] border text-[#c19787] hover:bg-[#c19787] hover:text-white'>
+                                        SUBSCRIBE
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     </div>
 
                     <div className='flex justify-between items-center max-sm:justify-center px-9 pt-32 pb-5 max-sm:px-7 max-sm:pt-10 max-sm:pb-0'>
@@ -169,10 +169,10 @@ function Home() {
                             <p className='text-[#707c84] font-montserrat w-[85%] max-sm:w-[98%] pb-10'>A consectetur eget ultrices nec velit purus quam dignissim purus gravida aliquam mattis ultrices eget ultricies tincidunt et erat enim vitae sollicitudin tellus placerat</p>
                         </div>
                         <div className='flex flex-col justify-evenly items-start pb-10 w-[48%] gap-10 max-sm:w-[98%] '>
-                            <ImgCard title='Family Dinner - Latea pulvinar scelerisque diam tempus facilisi' text='Enim imperdiet fames nisl, purus et diam aliquet' img='https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-latest-video-2.jpg' />
-                            <ImgCard title='Lobortis turpis turpis vehicula laoreet egestas enim ornare' text='Enim imperdiet fames nisl, purus et diam aliquet' img='https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-latest-video-3.jpg' />
-                            <ImgCard title='Tempus quis ac viverra condimentum sit nulla viverra' text='Enim imperdiet fames nisl, purus et diam aliquet' img='https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-latest-video-4.jpg' />
-                            <ImgCard title='Quis mauris egestas enim urna dictum' text='Enim imperdiet fames nisl, purus et diam aliquet' img='https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-latest-video-5.jpg' />
+                            <ImgCard wd='27%' title='Family Dinner - Latea pulvinar scelerisque diam tempus facilisi' text='Enim imperdiet fames nisl, purus et diam aliquet' img='https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-latest-video-2.jpg' />
+                            <ImgCard wd='27%' title='Lobortis turpis turpis vehicula laoreet egestas enim ornare' text='Enim imperdiet fames nisl, purus et diam aliquet' img='https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-latest-video-3.jpg' />
+                            <ImgCard wd='27%' title='Tempus quis ac viverra condimentum sit nulla viverra' text='Enim imperdiet fames nisl, purus et diam aliquet' img='https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-latest-video-4.jpg' />
+                            <ImgCard wd='27%' title='Quis mauris egestas enim urna dictum' text='Enim imperdiet fames nisl, purus et diam aliquet' img='https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-latest-video-5.jpg' />
                             <button className='max-sm:mt-4 font-montserrat text-sm font-semibold max-sm:w-[95%] w-[98%] py-2 px-10 border-[#be7c68] border text-[#be7c68] hover:bg-[#be7c68] hover:text-white'>
                                 VIEW ALL VIDEOS
                             </button>

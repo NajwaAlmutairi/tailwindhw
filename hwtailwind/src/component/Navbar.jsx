@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
@@ -9,11 +10,11 @@ const Navbar = () => {
                         <img src='https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-site-logo.svg' alt="Logo" />
                     </a>
                     <ul className="menu menu-horizontal px-1 hidden lg:flex text-[#131516] text-xs font-bold">
-                        <li>
-                            <a className='text-[#c19787] hover:text-[#c19787] hover:bg-transparent'>HOME</a>
+                        <li className='text-[#c19787] hover:text-[#c19787] hover:bg-transparent'>
+                            <Link to="/">HOME</Link>
                         </li>
-                        <li>
-                            <a className='hover:text-[#c19787] hover:bg-transparent'>ABOUT</a>
+                        <li className='hover:text-[#c19787] hover:bg-transparent'>
+                            <Link to="/about">ABOUT</Link>
                         </li>
                         <li>
                             <a className='hover:text-[#c19787] hover:bg-transparent'>REVIEWS</a>
@@ -21,8 +22,8 @@ const Navbar = () => {
                         <li>
                             <a className='hover:text-[#c19787] hover:bg-transparent'>VIDEOS</a>
                         </li>
-                        <li>
-                            <a className='hover:text-[#c19787] hover:bg-transparent'>CONTACT</a>
+                        <li className='hover:text-[#c19787] hover:bg-transparent'>
+                            <Link to="/contact">CONTACT</Link>
                         </li>
                     </ul>
                 </div>
@@ -77,11 +78,12 @@ const Navbar = () => {
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                     </form>
                     <ul className="flex text-[#545556] flex-col items-center justify-start h-full pt-10 space-y-4">
-                        <li><a className='hover:text-[#c19787]'>Home</a></li>
-                        <li><a className='hover:text-[#c19787]'>About</a></li>
+                        <li className='hover:text-[#c19787]'><Link to="/">Home</Link></li>
+                        <li className='hover:text-[#c19787]'><Link to="/about">About</Link></li>
                         <li><a className='hover:text-[#c19787]'>Reviews</a></li>
                         <li><a className='hover:text-[#c19787]'>Videos</a></li>
-                        <li><a className='hover:text-[#c19787]'>Contact</a></li>
+                        <li className='hover:text-[#c19787]'> <Link to="/contact">Contact</Link>
+                        </li>
                     </ul>
                 </div>
             </dialog>
