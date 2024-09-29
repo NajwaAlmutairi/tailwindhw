@@ -58,7 +58,7 @@ function Concat() {
                                 </div>
                             </div>
                         </div>
-                        <div className="order-1 flex-1 flex flex-col justify-evenly h-[35rem] max-sm:h-[70rem]">
+                        <div className="order-1 flex-1 flex flex-col justify-evenly h-[35rem] max-sm:h-[70rem] max-sm:pb-5">
                             <h1 className="text-7xl font-fraunces font-semibold text-[#131516] mb-0 max-sm:mb-4 max-sm:text-2xl">
                                 Contact
                             </h1>
