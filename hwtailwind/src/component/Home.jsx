@@ -8,7 +8,7 @@ function Home() {
     return (
         <>
             <div className='bg-[#f5f5f5] w-full relative  z-10'>
-                <div className='absolute w-[39vw] h-[163vh] bg-[#be9182] top-0 right-0 -z-1 max-sm:h-[87vh] max-sm:w-[28vw]'>
+                <div className='absolute w-[39vw] h-[163vh] bg-[#be9182] top-0 right-0 -z-1 max-sm:h-[60vh] max-sm:w-[28vw]'>
                 </div>
                 <div className='relative z-20'>
                     <Navbar />
@@ -131,7 +131,7 @@ function Home() {
                                 img="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-best-restaurant-6.jpg" />
                         </div>
                   
-                    <div className="card card-side bg-base-100 mx-10 max-sm:mx-0 border-8 border-[#e0e0e0] rounded-none mt-24 max-sm:flex-col max-sm:mt-16">
+                    <div className="card card-side bg-white mx-10 max-sm:mx-0 border-8 border-[#e0e0e0] rounded-none mt-24 max-sm:flex-col max-sm:mt-16">
                         <figure className="transform -translate-y-10 translate-x-9 max-sm:translate-x-4 max-sm:w-[92%] max-sm:-translate-y-7 max-sm:h-auto">
                             <img
                                 src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-subscribe-cta-img.jpg"

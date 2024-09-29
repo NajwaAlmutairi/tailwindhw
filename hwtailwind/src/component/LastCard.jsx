@@ -9,7 +9,7 @@ function LastCard({ img, title, text, isRead }) {
                     <img
                         src={img}
                         alt="FOOD"
-                        className='w-full max-sm:w-[95%]' />
+                        className='w-full' />
                 </figure>
                 <div className="card-body mx-0 px-0 gap-4">
                     <h2 className="card-title font-fraunces text-[#131516] text-3xl max-sm:text-2xl max-sm:w-[94vw]">{title}</h2>
